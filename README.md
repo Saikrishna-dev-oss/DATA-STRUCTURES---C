@@ -4,7 +4,7 @@ Welcome to my structured repository of core data structures implemented in C. Th
 
 ## 📂 Folder Structure
 
-Each folder (`week1` to `week10`) contains focused modules covering specific data structures and their applications:
+Each folder (`week1` to `week9`) contains focused modules covering specific data structures and their applications:
 
 - **week1**: Polynomial Addition using Linked List
 - **week2**: Circular Linked List
@@ -14,6 +14,11 @@ Each folder (`week1` to `week10`) contains focused modules covering specific dat
 - **week5**: Stack Applications (e.g., Expression Evaluation,Towers Of Hanoi)
 - **week6**: Circular Queue using Arrays
 - **week7**: Double-Ended Queue (Deque) using Linked List
+
+- **week8**: Binary Search Tree Full code, WRT Manual of My college,
+           *Tree Traversals (Iterative)
+           *Tree Traversals (Recursive)
+- **week9**: Heap Sort, Merge Sort
 - **Others**: Will Update Weekly
 
 > 📌 Each module is self-contained, with clean code, comments, and scope for extension.
