@@ -14,12 +14,10 @@ Each folder (`week1` to `week9`) contains focused modules covering specific data
 - **week5**: Stack Applications (e.g., Expression Evaluation,Towers Of Hanoi)
 - **week6**: Circular Queue using Arrays
 - **week7**: Double-Ended Queue (Deque) using Linked List
----
-  Starting Of Tree DataStructures
 
 - **week8**: Binary Search Tree Full code, WRT Manual of My college,
--           *Tree Traversals (Iterative)
--           *Tree Traversals (Recursive)
+           *Tree Traversals (Iterative)
+           *Tree Traversals (Recursive)
 - **week9**: Heap Sort, Merge Sort
 - **Others**: Will Update Weekly
 
