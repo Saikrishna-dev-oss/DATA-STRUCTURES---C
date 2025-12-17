@@ -3,18 +3,18 @@
 #include <stdlib.h>
 
 // Binary search to find the position where element should be inserted
-int binarySearch(int arr[], int item, int low, int high) {
+int binarySearch(int arr[], int selected, int low, int high) {
     if (high <= low)
-        return (item > arr[low]) ? (low + 1) : low;
+        return (selected > arr[low]) ? (low + 1) : low;
 
     int mid = (low + high) / 2;
 
-    if (item == arr[mid])
+    if (selected == arr[mid])
         return mid + 1;
 
-    if (item > arr[mid])
-        return binarySearch(arr, item, mid + 1, high);
-    return binarySearch(arr, item, low, mid - 1);
+    if (selected > arr[mid])
+        return binarySearch(arr, selected, mid + 1, high);
+    return binarySearch(arr, selected, low, mid - 1);
 }
 
 // Binary insertion sort function
@@ -25,8 +25,11 @@ void binaryInsertionSort(int arr[], int n) {
     for(i = 1; i<n;i++) {
         selected = arr[i];
         pos = binarySearch(arr,selected,0,i-1);
-        for(j = i-1; j>= pos; --j) 
+
+        for(j = i-1; j>= pos; --j) {
+
             arr[j+1] = arr[j];
+        }
         arr[pos] = selected;
         
     }
